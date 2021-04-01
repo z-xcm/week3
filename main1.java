@@ -6,6 +6,8 @@ public class OneTo100Sum {
 		
 		for(i = 1; i <= 100; i++){
 			sum += i;
+		// sum 중간 값 확인
+		System.out.println(sum);
 		}
 		
 		System.out.println(sum);
